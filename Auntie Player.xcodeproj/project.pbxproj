@@ -47,6 +47,15 @@
 		49FB69911BD2547700B5643B /* NSDate+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FB698F1BD2547700B5643B /* NSDate+Tools.m */; };
 		49FB69991BD25BE000B5643B /* EpisodeVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 49FB69971BD25BE000B5643B /* EpisodeVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49FB699A1BD25BE000B5643B /* EpisodeVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FB69981BD25BE000B5643B /* EpisodeVersion.m */; };
+		EDA1693822160FC1001D1E75 /* Auntie_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1693722160FC1001D1E75 /* Auntie_PlayerUITests.swift */; };
+		EDA1694522161057001D1E75 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1694422161057001D1E75 /* Base.swift */; };
+		EDA1694A22161088001D1E75 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1694622161087001D1E75 /* HomeScreen.swift */; };
+		EDA1694B22161088001D1E75 /* ContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1694722161088001D1E75 /* ContentScreen.swift */; };
+		EDA1694C22161088001D1E75 /* CategoriesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1694822161088001D1E75 /* CategoriesScreen.swift */; };
+		EDA1694D22161088001D1E75 /* MenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1694922161088001D1E75 /* MenuScreen.swift */; };
+		EDA16951221610BF001D1E75 /* ContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1694E221610BF001D1E75 /* ContentTests.swift */; };
+		EDA16952221610BF001D1E75 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1694F221610BF001D1E75 /* Categories.swift */; };
+		EDA16953221610BF001D1E75 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA16950221610BF001D1E75 /* BaseTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +93,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 493EA4581BD1304E00B0C50D;
 			remoteInfo = AuntieKit;
+		};
+		EDA1693A22160FC1001D1E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 493EA4351BD1300D00B0C50D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 493EA43C1BD1300D00B0C50D;
+			remoteInfo = "Auntie Player";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -159,6 +175,17 @@
 		49FB698F1BD2547700B5643B /* NSDate+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Tools.m"; sourceTree = "<group>"; };
 		49FB69971BD25BE000B5643B /* EpisodeVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpisodeVersion.h; sourceTree = "<group>"; };
 		49FB69981BD25BE000B5643B /* EpisodeVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpisodeVersion.m; sourceTree = "<group>"; };
+		EDA1693522160FC0001D1E75 /* Auntie PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auntie PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA1693722160FC1001D1E75 /* Auntie_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auntie_PlayerUITests.swift; sourceTree = "<group>"; };
+		EDA1693922160FC1001D1E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA1694422161057001D1E75 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		EDA1694622161087001D1E75 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		EDA1694722161088001D1E75 /* ContentScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentScreen.swift; sourceTree = "<group>"; };
+		EDA1694822161088001D1E75 /* CategoriesScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesScreen.swift; sourceTree = "<group>"; };
+		EDA1694922161088001D1E75 /* MenuScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScreen.swift; sourceTree = "<group>"; };
+		EDA1694E221610BF001D1E75 /* ContentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTests.swift; sourceTree = "<group>"; };
+		EDA1694F221610BF001D1E75 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		EDA16950221610BF001D1E75 /* BaseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +203,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				13E40B701BD67701002B8603 /* ThunderRequestTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA1693222160FC0001D1E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +282,7 @@
 			children = (
 				493EA43F1BD1300D00B0C50D /* Auntie Player */,
 				493EA45A1BD1304E00B0C50D /* AuntieKit */,
+				EDA1693622160FC1001D1E75 /* Auntie PlayerUITests */,
 				493EA43E1BD1300D00B0C50D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -257,6 +292,7 @@
 			children = (
 				493EA43D1BD1300D00B0C50D /* Auntie Player.app */,
 				493EA4591BD1304E00B0C50D /* AuntieKit.framework */,
+				EDA1693522160FC0001D1E75 /* Auntie PlayerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -308,6 +344,47 @@
 				493EA45D1BD1304E00B0C50D /* Info.plist */,
 			);
 			path = AuntieKit;
+			sourceTree = "<group>";
+		};
+		EDA1693622160FC1001D1E75 /* Auntie PlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA1694322161008001D1E75 /* UITests */,
+				EDA1694222160FFE001D1E75 /* Screens */,
+				EDA1694122160FF5001D1E75 /* Base */,
+				EDA1693722160FC1001D1E75 /* Auntie_PlayerUITests.swift */,
+				EDA1693922160FC1001D1E75 /* Info.plist */,
+			);
+			path = "Auntie PlayerUITests";
+			sourceTree = "<group>";
+		};
+		EDA1694122160FF5001D1E75 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EDA1694422161057001D1E75 /* Base.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EDA1694222160FFE001D1E75 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EDA1694822161088001D1E75 /* CategoriesScreen.swift */,
+				EDA1694722161088001D1E75 /* ContentScreen.swift */,
+				EDA1694622161087001D1E75 /* HomeScreen.swift */,
+				EDA1694922161088001D1E75 /* MenuScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EDA1694322161008001D1E75 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA16950221610BF001D1E75 /* BaseTest.swift */,
+				EDA1694F221610BF001D1E75 /* Categories.swift */,
+				EDA1694E221610BF001D1E75 /* ContentTests.swift */,
+			);
+			path = UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,12 +447,31 @@
 			productReference = 493EA4591BD1304E00B0C50D /* AuntieKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		EDA1693422160FC0001D1E75 /* Auntie PlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA1694022160FC1001D1E75 /* Build configuration list for PBXNativeTarget "Auntie PlayerUITests" */;
+			buildPhases = (
+				EDA1693122160FC0001D1E75 /* Sources */,
+				EDA1693222160FC0001D1E75 /* Frameworks */,
+				EDA1693322160FC0001D1E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA1693B22160FC1001D1E75 /* PBXTargetDependency */,
+			);
+			name = "Auntie PlayerUITests";
+			productName = "Auntie PlayerUITests";
+			productReference = EDA1693522160FC0001D1E75 /* Auntie PlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		493EA4351BD1300D00B0C50D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Matt & Phill Collaboration";
 				TargetAttributes = {
@@ -384,6 +480,11 @@
 					};
 					493EA4581BD1304E00B0C50D = {
 						CreatedOnToolsVersion = 7.1;
+					};
+					EDA1693422160FC0001D1E75 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 493EA43C1BD1300D00B0C50D;
 					};
 				};
 			};
@@ -408,6 +509,7 @@
 			targets = (
 				493EA43C1BD1300D00B0C50D /* Auntie Player */,
 				493EA4581BD1304E00B0C50D /* AuntieKit */,
+				EDA1693422160FC0001D1E75 /* Auntie PlayerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -446,6 +548,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		493EA4571BD1304E00B0C50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA1693322160FC0001D1E75 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,6 +603,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDA1693122160FC0001D1E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA16951221610BF001D1E75 /* ContentTests.swift in Sources */,
+				EDA16952221610BF001D1E75 /* Categories.swift in Sources */,
+				EDA1694D22161088001D1E75 /* MenuScreen.swift in Sources */,
+				EDA1694522161057001D1E75 /* Base.swift in Sources */,
+				EDA16953221610BF001D1E75 /* BaseTest.swift in Sources */,
+				EDA1694B22161088001D1E75 /* ContentScreen.swift in Sources */,
+				EDA1693822160FC1001D1E75 /* Auntie_PlayerUITests.swift in Sources */,
+				EDA1694C22161088001D1E75 /* CategoriesScreen.swift in Sources */,
+				EDA1694A22161088001D1E75 /* HomeScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -506,6 +631,11 @@
 			isa = PBXTargetDependency;
 			target = 493EA4581BD1304E00B0C50D /* AuntieKit */;
 			targetProxy = 493EA45E1BD1304E00B0C50D /* PBXContainerItemProxy */;
+		};
+		EDA1693B22160FC1001D1E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 493EA43C1BD1300D00B0C50D /* Auntie Player */;
+			targetProxy = EDA1693A22160FC1001D1E75 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -652,6 +782,76 @@
 			};
 			name = Release;
 		};
+		EDA1693C22160FC1001D1E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Auntie PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gokhan.ozturk.Auntie-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Auntie Player";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		EDA1693D22160FC1001D1E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Auntie PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gokhan.ozturk.Auntie-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Auntie Player";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -678,6 +878,15 @@
 			buildConfigurations = (
 				493EA4631BD1304E00B0C50D /* Debug */,
 				493EA4641BD1304E00B0C50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA1694022160FC1001D1E75 /* Build configuration list for PBXNativeTarget "Auntie PlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA1693C22160FC1001D1E75 /* Debug */,
+				EDA1693D22160FC1001D1E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
