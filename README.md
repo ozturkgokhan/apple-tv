@@ -1,3 +1,11 @@
+# Test Project of Auntie Player tvOS OTT App
+There is not too much **tvOS testing projects** build on **XCTest** library, and I thought it would be a valuable information for who wants to get more familiar with the concept. Thanks to developers of the main application that I had a chance to play around with a real working public **tvOS OTT app** for testing purposes.
+
+I will try to commit more tests and refactor the test to implement some of the sw design patterns, in time. 
+
+
+
+*ORIGINAL README goes below..*
 # Auntie Player
 
 An Apple TV app to access on demand programmes from the BBC. 
